@@ -1,0 +1,51 @@
+//Jangan Di Ubah Developernya Kalo Mau Tambahin Kamu ubah Saja, Yang Youtube Nya Hapus Menjadi Nama Kamu
+//Yang Mengubah Keliatan Di PC Datanya Ntar Saya Hapus!
+//Jangan Di Ubah Yaa!
+//Ubah Follow IG Gw Trus Izin Ke IG
+
+let PhoneNumber = require('awesome-phonenumber')
+let levelling = require('../lib/levelling')
+
+let handler = async (m, { conn, usedPrefix }) => {
+
+  let pp = 'https://i.ibb.co/9r4RVMc/20210902-151958.png'
+  let who = m.mentionedJid && m.mentionedJid[0] ? m.mentionedJid[0] : m.fromMe ? conn.user.jid : m.sender
+  try {
+  } catch (e) {
+
+  } finally {
+    let str = `
+┏━━°❀❬ DEVELOPER BOT ❭❀°━━┓
+┣➥ *Developer Bot Ini Muhamad Nahara*
+┣➥ *Developer PC : FERNAZER, NURUTOMO*
+┣➥ *Youtube,Ig? bit.ly/3kSGPYC*
+┣
+┣➥ *VERSION BOT : 9.30*
+┣➥ *Baileys Chrome Server LTE*
+┣➥ *Average Ping : 500KB/S*
+┣➥ *Average ON : 20 Jam*
+┣
+┗━━━━━━━━━━━━━━━━
+`.trim()
+    let mentionedJid = [who]
+    conn.sendFile(m.chat, pp, 'lp.jpg', str, m, false, { contextInfo: { mentionedJid }})
+  }
+}
+handler.help = ['dvel8181']
+handler.tags = ['jj']
+handler.command = /^(dvel8181)$/i
+handler.owner = false
+handler.mods = false
+handler.premium = false
+handler.group = false
+handler.private = false
+
+handler.admin = false
+handler.botAdmin = false
+
+handler.fail = null
+
+module.exports = handler
+
+
+

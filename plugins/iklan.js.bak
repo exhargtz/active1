@@ -1,0 +1,33 @@
+let handler  = async (m, { conn, usedPrefix: _p }) => {
+let info = `🇸 🇪 🇼 🇦  🇧 🇴 🇹 🇿 ❓
+*BOTZ MENU :*
+»ANTILINK (OTOMATIS)
+»WELCOME GAMBAR
+»MENU STIKER, DOWNLOAD
+»MENU LAINNYA 938FITUR
+
+╭─❏「 UNDANG BOT KE GRUP 」
+┣➥ SEBULAN *7rb*
+┣➥ PERMANENT *10rb* (1)
+┣➥ PERMANENT *15rb* (3)
+┣➥ SC BOT KU : *25rb* NO ENC
+┣➥ BOTnya wa.me/6285718844348
+╰────❏
+
+*Open Murid + SC : 10K*
+- Murid Di Ajarin Sampai Bisa.
+
+» 🤝MINAT? *wa.me/6281218871040*
+» GRUP BOT BEBAS https://bit.ly/lnk5in1
+» BOTZ ON 24JAM
+» Pay : GPAY-DANA-INDOSAT
+
+⚠️ BOT AKAN KAMI UPDATE DI HARI SABTU SETIAP JAM 00.00, DAN *NIKMATI FITUR BARUNYA!*` 
+
+conn.fakeReply(m.chat, info, '0@s.whatsapp.net', '*BOT TERVERIFIKASI*', 'status@broadcast')
+}
+handler.help = ['iklan'] 
+handler.tags = ['info'] 
+handler.command = /^(iklan)$/i
+
+module.exports = handler
