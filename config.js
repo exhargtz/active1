@@ -1,7 +1,7 @@
 global.DeveloperMode = 'false' //Buat Mode True False Moderator
 global.linkGC = ['https://chat.whatsapp.com/CAKETl3LJdELqHTqOJtH4S']
 global.channelYT = ['Y O T A B O T Z'] 
-global.owner = ['62895385158253']// Nomer Owner Utama
+global.owner = ['6285161967158']// Nomer Owner Utama
 global.mods = ['62895385158253'] // Buat Owner Biar Unlimitid
 global.prems = ['62895385158253'] // Buat Yg User Premium 
 global.APIs = { // API Prefix
