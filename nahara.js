@@ -1,15 +1,15 @@
-console.log('Nahara.Arsc Scanning Script...')
+console.log('[SCRIPT MODE] Tidak TerEnkripsi\n[SCRIPT MODE] Nahara.Arsc Scanning Script...\n[OPEN SCRIPT] Memulai ./Plugins')
 let { spawn } = require('child_process')
 let path = require('path')
 let fs = require('fs')
 let package = require('./package.json')
 const CFonts  = require('cfonts')
-CFonts.say('DI BUAT\nOLEH NAHARA', {
+CFonts.say('MEMULAI', {
   font: 'chrome',
   align: 'center',
   gradient: ['red', 'magenta']
 })
-CFonts.say(`'${package.name}' By @${package.author.name || package.author}`, {
+CFonts.say(`'${package.name} By @exhar_ft ~ github.com/exhargtz'`, {
   font: 'console',
   align: 'center',
   gradient: ['red', 'magenta']
